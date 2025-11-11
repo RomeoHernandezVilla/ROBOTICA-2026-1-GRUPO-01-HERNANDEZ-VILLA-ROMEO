@@ -1,0 +1,49 @@
+[1.822s] Invoking command in '/home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build
+[2.546s] running develop
+[3.062s] Removing /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes-topics-py.egg-link (link to .)
+[3.117s] Invoked command in '/home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build
+[3.121s] Invoking command in '/home/arrgusr/ROS2Dev/nodos_topics_ws/src': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nodes_topics_py build --build-base /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build install --record /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/install.log --single-version-externally-managed install_data --force
+[3.756s] running egg_info
+[3.815s] writing ../build/nodes_topics_py/nodes_topics_py.egg-info/PKG-INFO
+[3.817s] writing dependency_links to ../build/nodes_topics_py/nodes_topics_py.egg-info/dependency_links.txt
+[3.820s] writing entry points to ../build/nodes_topics_py/nodes_topics_py.egg-info/entry_points.txt
+[3.822s] writing requirements to ../build/nodes_topics_py/nodes_topics_py.egg-info/requires.txt
+[3.824s] writing top-level names to ../build/nodes_topics_py/nodes_topics_py.egg-info/top_level.txt
+[3.917s] reading manifest file '../build/nodes_topics_py/nodes_topics_py.egg-info/SOURCES.txt'
+[3.920s] adding license file 'LICENSE'
+[3.920s] writing manifest file '../build/nodes_topics_py/nodes_topics_py.egg-info/SOURCES.txt'
+[3.920s] running build
+[3.920s] running build_py
+[3.923s] creating /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build
+[3.925s] creating /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build/lib
+[3.926s] creating /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build/lib/nodes_topics_py
+[3.927s] copying nodes_topics_py/__init__.py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build/lib/nodes_topics_py
+[3.928s] copying nodes_topics_py/control_man_mov.py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build/lib/nodes_topics_py
+[3.929s] copying nodes_topics_py/mi_primer_nodo.py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build/lib/nodes_topics_py
+[3.932s] copying nodes_topics_py/publish_node.py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build/lib/nodes_topics_py
+[3.933s] copying nodes_topics_py/sub_node.py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build/lib/nodes_topics_py
+[3.943s] running install
+[3.945s] running install_lib
+[4.007s] creating /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py
+[4.008s] copying /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build/lib/nodes_topics_py/__init__.py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py
+[4.010s] copying /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build/lib/nodes_topics_py/control_man_mov.py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py
+[4.018s] copying /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build/lib/nodes_topics_py/mi_primer_nodo.py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py
+[4.019s] copying /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build/lib/nodes_topics_py/publish_node.py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py
+[4.021s] copying /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build/lib/nodes_topics_py/sub_node.py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py
+[4.022s] byte-compiling /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py/__init__.py to __init__.cpython-312.pyc
+[4.023s] byte-compiling /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py/control_man_mov.py to control_man_mov.cpython-312.pyc
+[4.024s] byte-compiling /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py/mi_primer_nodo.py to mi_primer_nodo.cpython-312.pyc
+[4.026s] byte-compiling /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py/publish_node.py to publish_node.cpython-312.pyc
+[4.027s] byte-compiling /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py/sub_node.py to sub_node.cpython-312.pyc
+[4.029s] running install_data
+[4.031s] copying resource/nodes_topics_py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/share/ament_index/resource_index/packages
+[4.033s] copying package.xml -> /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/share/nodes_topics_py
+[4.034s] running install_egg_info
+[4.095s] Copying ../build/nodes_topics_py/nodes_topics_py.egg-info to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py-0.0.0-py3.12.egg-info
+[4.096s] running install_scripts
+[4.379s] Installing control_man_mov_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+[4.383s] Installing my_node_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+[4.386s] Installing publish2_node_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+[4.389s] Installing subcriber_node_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+[4.398s] writing list of installed files to '/home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/install.log'
+[4.442s] Invoked command in '/home/arrgusr/ROS2Dev/nodos_topics_ws/src' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nodes_topics_py build --build-base /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build install --record /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,26 @@
+running egg_info
+writing ../build/nodes_topics_py/nodes_topics_py.egg-info/PKG-INFO
+writing dependency_links to ../build/nodes_topics_py/nodes_topics_py.egg-info/dependency_links.txt
+writing entry points to ../build/nodes_topics_py/nodes_topics_py.egg-info/entry_points.txt
+writing requirements to ../build/nodes_topics_py/nodes_topics_py.egg-info/requires.txt
+writing top-level names to ../build/nodes_topics_py/nodes_topics_py.egg-info/top_level.txt
+reading manifest file '../build/nodes_topics_py/nodes_topics_py.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/nodes_topics_py/nodes_topics_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying nodes_topics_py/control_man_mov.py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build/lib/nodes_topics_py
+running install
+running install_lib
+copying /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build/lib/nodes_topics_py/control_man_mov.py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py
+byte-compiling /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py/control_man_mov.py to control_man_mov.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/nodes_topics_py/nodes_topics_py.egg-info to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing control_man_mov_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+Installing my_node_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+Installing publish2_node_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+Installing subcriber_node_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+writing list of installed files to '/home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/install.log'

@@ -1,0 +1,5 @@
+[console_scripts]
+control_man_mov_py = nodes_topics_py.control_man_mov:main
+my_node_py = nodes_topics_py.mi_primer_nodo:main
+publish2_node_py = nodes_topics_py.publish_node:main
+subcriber_node_py = nodes_topics_py.sub_node:main

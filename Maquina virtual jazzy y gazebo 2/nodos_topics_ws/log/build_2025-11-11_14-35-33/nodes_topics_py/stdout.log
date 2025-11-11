@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating nodes_topics_py.egg-info
+writing nodes_topics_py.egg-info/PKG-INFO
+writing dependency_links to nodes_topics_py.egg-info/dependency_links.txt
+writing entry points to nodes_topics_py.egg-info/entry_points.txt
+writing requirements to nodes_topics_py.egg-info/requires.txt
+writing top-level names to nodes_topics_py.egg-info/top_level.txt
+writing manifest file 'nodes_topics_py.egg-info/SOURCES.txt'
+reading manifest file 'nodes_topics_py.egg-info/SOURCES.txt'
+writing manifest file 'nodes_topics_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes-topics-py.egg-link (link to .)
+Installing control_man_mov_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+Installing my_node_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+Installing publish2_node_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+Installing subcriber_node_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+
+Installed /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py
+running symlink_data
+creating /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/share/ament_index
+creating /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/share/ament_index/resource_index
+creating /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/share/ament_index/resource_index/packages
+symbolically linking /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/resource/nodes_topics_py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/share/ament_index/resource_index/packages
+symbolically linking /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/package.xml -> /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/share/nodes_topics_py

@@ -1,0 +1,27 @@
+[2.869s] Invoking command in '/home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build --no-deps symlink_data
+[3.725s] running develop
+[4.212s] running egg_info
+[4.213s] creating nodes_topics_py.egg-info
+[4.272s] writing nodes_topics_py.egg-info/PKG-INFO
+[4.273s] writing dependency_links to nodes_topics_py.egg-info/dependency_links.txt
+[4.273s] writing entry points to nodes_topics_py.egg-info/entry_points.txt
+[4.273s] writing requirements to nodes_topics_py.egg-info/requires.txt
+[4.274s] writing top-level names to nodes_topics_py.egg-info/top_level.txt
+[4.275s] writing manifest file 'nodes_topics_py.egg-info/SOURCES.txt'
+[4.396s] reading manifest file 'nodes_topics_py.egg-info/SOURCES.txt'
+[4.399s] writing manifest file 'nodes_topics_py.egg-info/SOURCES.txt'
+[4.450s] running build_ext
+[4.451s] Creating /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages/nodes-topics-py.egg-link (link to .)
+[4.451s] Installing control_man_mov_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+[4.454s] Installing my_node_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+[4.454s] Installing publish2_node_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+[4.454s] Installing subcriber_node_py script to /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/nodes_topics_py
+[4.454s] 
+[4.455s] Installed /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py
+[4.455s] running symlink_data
+[4.455s] creating /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/share/ament_index
+[4.457s] creating /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/share/ament_index/resource_index
+[4.458s] creating /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/share/ament_index/resource_index/packages
+[4.459s] symbolically linking /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/resource/nodes_topics_py -> /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/share/ament_index/resource_index/packages
+[4.459s] symbolically linking /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/package.xml -> /home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/share/nodes_topics_py
+[4.558s] Invoked command in '/home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrgusr/ROS2Dev/nodos_topics_ws/install/nodes_topics_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arrgusr/ROS2Dev/nodos_topics_ws/build/nodes_topics_py/build --no-deps symlink_data
