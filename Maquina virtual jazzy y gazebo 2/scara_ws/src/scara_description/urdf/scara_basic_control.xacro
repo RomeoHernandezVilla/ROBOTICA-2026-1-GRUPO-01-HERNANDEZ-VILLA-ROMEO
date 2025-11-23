@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot name="robot_scara" xmlns:xacro="http://ros.org/wiki/xacro" >
+
+    <xacro:property name="package_name" value="scara_description"/>
+
+    <xacro:include filename="$(find ${package_name})/urdf/scara_control_basic.xacro"/>
+
+    <!--
+    
+
+    <xacro:include filename="$(find ${package_name})/urdf/scara_gz_properties.xacro"/>
+
+    <xacro:include filename="$(find ${package_name})/urdf/position_controller.xacro"/>
+    -->
+
+</robot>
