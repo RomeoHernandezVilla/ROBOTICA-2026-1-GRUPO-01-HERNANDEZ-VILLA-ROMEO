@@ -1,0 +1,56 @@
+
+__________________________________________________________________________
+Opción A (Compilar TODO - Recomendado si clonaste algo nuevo):
+Bash
+
+colcon build
+
+Opción B (Compilar solo un paquete - Más rápido): Si solo modificaste archivos dentro de scara_bringup, usa este para ahorrar tiempo:
+Bash
+
+colcon build --packages-select scara_bringup
+
+Opción C (El truco de experto - Symlink): Usa este si estás modificando scripts de Python seguido. Crea "atajos" directos para que no tengas que recompilar cada vez que cambias una línea de código Python (aunque sí tendrás que hacerlo si cambias el setup.py o CMakeLists.txt).
+Bash
+
+    colcon build --symlink-install
+
+3. Refrescar el entorno (Source)
+
+Este paso es vital. Le dice a tu terminal actual: "Oye, acabo de crear programas nuevos en la carpeta install, agrégalos a tu memoria". Si no haces esto, ROS te dirá "Package not found".
+Bash
+
+source install/setup.bash
+
+
+____________________
+
+git status
+
+git add .
+
+git commit -m "xxxx"
+
+git push
+
+_________________________
+########################
+
+proyecto ejecutar scara
+
+
+ros2 launch scara_bringup gz2_scara.launch.py
+
+
+para grabar los datos de las juntas y eslabones
+
+ ros2 bag record -s sqlite3 -o datos_reporte /joint_states
+
+
+por ultimo la trayectoria planeada
+
+ros2 run scara_bringup trayectoria_scara.p
+
+
+####################
+___________________________
