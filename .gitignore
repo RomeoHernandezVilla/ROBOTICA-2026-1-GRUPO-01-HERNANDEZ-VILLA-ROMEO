@@ -1,0 +1,15 @@
+# Basura de ROS 2 (Build artifacts)
+build/
+install/
+log/
+
+# Basura de Python
+__pycache__/
+*.py[cod]
+
+# Archivos de sistema y editores
+.DS_Store
+.vscode/
+
+# Archivos temporales
+*~
